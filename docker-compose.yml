@@ -1,6 +1,4 @@
 
-version: '3.8'
-
 services:
   badgeradmin:
     build: .
@@ -11,4 +9,4 @@ services:
       - BADGER_ADMIN_USER=admin
       - BADGER_ADMIN_PASS=botfluence
     volumes:
-      - ./data:/app/data
+      - /root/eyup_x_reply/data:/app/data
